@@ -1,1 +1,50 @@
 # Alex - 42 - Libft : Ta propre bibliothèque à toi tout seul
+
+# Fonction : memset
+#include <string.h>
+void *memset(void *s, int c, size_t n);
+
+# Fonction : bzero
+
+
+# Fonction : memcpy
+#include <string.h>
+void *memcpy(void * restrict s1,
+const void * restrict s2,
+size_t n);
+
+# Fonction : memcopy
+
+
+# Fonction : memmove
+ #include <string.h>
+void *memmove(void *s1, const void *s2, size_t n);
+
+# Fonction : memchr
+#include <string.h>
+void *memchr(const void *s, int c, size_t n);
+
+# Fonction : memcmp
+#include <string.h>
+int memcmp(const void *s1, const void *s2, size_t n);
+
+# Fonction : strlen
+#include <string.h>
+size_t strlen(const char *s);
+
+# Fonction : strdup
+
+
+# Fonction : strcpy
+ #include <string.h>
+char *strcpy(char * restrict s1,
+const char * restrict s2);
+
+# Fonction : strncpy
+#include <string.h>
+char *strncpy(char * restrict s1,
+const char * restrict s2,
+size_t n);
+
+# Fonction : strcat
+
