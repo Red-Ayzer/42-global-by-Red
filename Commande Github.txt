@@ -1,0 +1,11 @@
+• Sélectionner le dossier :
+$ cd Dossier/42-global-by-Red/
+
+• Ajouter le tout :
+$ git add *
+
+• Créer le packet pour l'envoi :
+$ git commit -m "....."
+
+• Envoyé le pré-envoi :
+$ git commit push
