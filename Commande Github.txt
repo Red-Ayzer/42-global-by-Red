@@ -8,4 +8,4 @@ $ git add *
 $ git commit -m "....."
 
 • Envoyé le pré-envoi :
-$ git commit push
+$ git push
