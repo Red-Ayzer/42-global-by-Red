@@ -1,3 +1,4 @@
 //Alex - 42 - Libft : Ta propre bibliothèque à toi tout seul
 
-size
+#include <string.h>
+size_t ft_len(const char *s);
