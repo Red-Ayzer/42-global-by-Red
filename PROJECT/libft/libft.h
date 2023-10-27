@@ -26,7 +26,7 @@ void *ft_memchr(const void *s, int c, size_t n);
 int memcmp(const void *s1, const void *s2, size_t n);
 
 // strlen 
-
+size_t strlen(const char *s);
 
 // strdup 
 

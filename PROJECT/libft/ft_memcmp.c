@@ -1,9 +1,10 @@
 // memcmp
 #include "libft.h"
 
-int memcmp(const void *s1, const void *s2, size_t n)
+int ft_memcmp(const void *s1, const void *s2, size_t n)
 {
     int index = 0;
+    int entier;
 
     while (index<n)
     {
@@ -12,14 +13,18 @@ int memcmp(const void *s1, const void *s2, size_t n)
 
         if (s1[index]<s2[index])
         {
-            /* code */
+            entier = -1;
         }
-        if ()
+        else if (s1[index]>s2[index])
+        {
+            entier = 1;
+        }
         else
         {
-
+            entier = 0;
         }
-        ++index
+
+        return entier;
+        ++index;
     }
-    
 }
