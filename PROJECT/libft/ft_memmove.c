@@ -8,10 +8,10 @@ void *ft_memmove(void *dest, const void *src, size_t n)
 
     while (index < n)
     {
-        ((int*)src[index]) = area[index]
-        area[index] = ((int*)dest[index])
+        ((int*)src[index]) = area[index];
+        area[index] = ((int*)dest[index]);
 
-        index ++
+        ++index;
     }
     return ((int*)dest)
 }
