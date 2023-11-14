@@ -12,7 +12,12 @@ char *strcpy(char *dest, const char *src)
 
     if(strlen((str)*dest[index]) < strlen((str)*src[index]))
     {
-            ...
+            int tailleSrc = strlen((str)*src[index]
+            while (index =< tailleSrc)
+                
+                
+                
+            ((str)*src[index]
     }
     else
     {
