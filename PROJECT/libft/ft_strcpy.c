@@ -4,12 +4,18 @@
 
 char *strcpy(char *dest, const char *src)
 {
-int index;
+    int index;
 
-(str)*src[index];
-(str)*dest[index]
-(str)*transition[index]
+    (str)*src[index];
+    (str)*dest[index]
+    (str)*transition[index]
 
-if(strlen((str)*dest[index])<strlen((str)*src[index]))
-
+    if(strlen((str)*dest[index]) < strlen((str)*src[index]))
+    {
+            ...
+    }
+    else
+    {
+        //print("La chaîne dest est plus petite que la chaîne src")
+    }
 }
