@@ -1,4 +1,5 @@
 // strcpy
+// manque à ajouter les actions de "n"
 
 #include "libft.h"
 
