@@ -35,7 +35,7 @@ char *strdup(const char *s);
 char *strcpy(char *dest, const char *src);
 
 // strncpy 
-
+char *strncpy(char *dest, const char *src, size_t n);
 
 // strcat 
 
