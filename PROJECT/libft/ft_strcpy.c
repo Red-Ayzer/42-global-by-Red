@@ -26,7 +26,7 @@ char *strcpy(char *dest, const char *src)
     }
     else
     {
-        //print("La chaîne dest est plus petite que la chaîne src")
+        //print("La chaîne dest est plus petite que la chaîne src");
     }
-    return dest
+    return dest;
 }
