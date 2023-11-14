@@ -14,13 +14,19 @@ char *strcpy(char *dest, const char *src)
     {
             int tailleSrc = strlen((str)*src[index]
             while (index =< tailleSrc)
-                
-                
-                
+                {
+                    (str)*src[index] = (str)*transition[index]
+                    (str)*transition[index] = (str)*dest[index]
+                    index ++
+                    
+                    
+                    
+                }
             ((str)*src[index]
     }
     else
     {
         //print("La chaîne dest est plus petite que la chaîne src")
     }
+    return dest
 }
