@@ -32,7 +32,7 @@ size_t strlen(const char *s);
 char *strdup(const char *s);
 
 // strcpy 
-
+char *strcpy(char *dest, const char *src);
 
 // strncpy 
 
