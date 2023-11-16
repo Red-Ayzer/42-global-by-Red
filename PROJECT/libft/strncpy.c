@@ -7,6 +7,7 @@ char *strncpy(char *dest, const char *src, size_t n)
 {
 
     int index;
+    int n;
 
     (str)*src[index];
     (str)*dest[index]
@@ -14,17 +15,12 @@ char *strncpy(char *dest, const char *src, size_t n)
 
     if(strlen((str)*dest[index]) < strlen((str)*src[index]))
     {
-            int tailleSrc = strlen((str)*src[index]
-            while (index =< tailleSrc)
+            while (index =< n)
                 {
-                    (str)*src[index] = (str)*transition[index]
-                    (str)*transition[index] = (str)*dest[index]
+                    ((str)*src[index]) = ((str)*transition[index])
+                    ((str)*transition[index]) = ((str)*dest[index])
                     index ++
-                    
-                    
-                    
                 }
-            ((str)*src[index]
     }
     else
     {
